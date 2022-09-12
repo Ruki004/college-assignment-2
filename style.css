@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+:root{
+   --blue:#3498db;
+   --dark-blue:#2980b9;
+   --red:#e74c3c;
+   --dark-red:#c0392b;
+   --black:#333;
+   --white:#fff;
+   --light-bg:#eee;
+   --box-shadow:0 5px 10px rgba(0,0,0,.1);
+}
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border: none;
+   text-decoration: none;
+}
+
+*::-webkit-scrollbar{
+   width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--blue);
+}
+.form-container form p{
+   font-weight: bolder;
+}
+
+.form-container{
+min-height: 100vh;
+
+background: url(https://imgur.com/am9NjTE.jpg);
+background-size: cover;
+display:flex;
+color: azure;
+align-items: center;
+justify-content: center;
+padding: auto;
+
+}
+.form-size{
+    margin-top: -100px;
+    padding:auto;
+}
+.logo{
+background-image: url(https://imgur.com/SSLlKJ3.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-x: 68px;
+background-position-y: -50px;
+padding: auto;
+width: 391px;
+height: 391px;
+
+
+}
+ 
+.form-container form{
+padding: 40px;
+box-shadow: transparent;
+text-align: center;
+border-radius: 50px; 
+width: 600px;
+background-image: transparent;
+height: auto;
+}
+.text-color{
+    color: #fff;
+
+}
+
+.form-container form .box{ 
+    width: 100%;
+    border-radius:5px;
+    padding:12px 14px;
+    font-size: 16px;
+    margin:10px ;
+    background-color: transparent;
+}
+.form-container form h3{
+
+margin-bottom:10px;
+font-size: 40px;
+font-family: 'Century Gothic';
+color:var(--white);
+text-transform: uppercase;
+}
+.btn,
+.delete-btn{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: auto;
+    color:var(--white);
+    display:block;
+    text-align: center;
+    cursor:pointer;
+    font-size: 20px;
+    margin-top: -8px;
+    margin-left:auto;
+}
+.btn{
+    background-color: transparent;
+}
+
+.btn:hover{
+    background-color: rgb(103, 182, 247);
+    opacity: 70%;
+}
+.update-btn{
+    width: 100%;
+    border-radius:5px;
+    padding: 10px 30px;
+    color:var(--white);
+    display:block;
+    background-color: #ffafbd;
+    text-align: center;
+    cursor:pointer;
+    font-size: 20px;
+    margin-top: -8px;
+}
+.update-btn:hover{
+    background-color:#fa85a4;
+}
+
+
+.delete-btn{
+
+    background-color: var(--red);
+}
+.delete-btn2{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: auto;
+    color:var(--white);
+    display:block;
+    text-align: center;
+    cursor:pointer;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left:auto;
+    background-color: black;
+}
+
+
+.delete-btn:hover{
+    background-color: var(--dark-red);
+}
+
+.delete-btn2:hover{
+        background-color:rgb(52, 49, 49);
+    
+}
+.form-container form p a:hover{
+    text-decoration: underline;
+}
+.message{
+    margin-left:auto;
+    border-radius: 40px;
+    width: 100%;
+    border-radius:5px;
+    padding: 15px;
+    text-align: center;
+    background-color: transparent;
+    color: var(--dark-red);
+    font-size: 25px;
+
+}
+
+.container{
+    min-height: 100vh;
+    background-image: url(https://imgur.com/3BJ5pF0.jpg);
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.container .profile{
+    padding: 20px;
+    box-shadow: transparent;
+    text-align: center;
+    width: 440px;
+    height: auto;
+}
+.container .profile Img{
+height:150px;
+width: 150px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 20px;
+}
+.container .profile a1:hover{
+    text-decoration: underline;
+    color:deeppink;
+}
+.update-pro{
+    min-height: 100vh;
+    background-image: linear-gradient(#eecda3,#ef629f );
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+.update-pro form{
+    padding: 20px;
+    background-image:linear-gradient(#ef629f,#eecda3);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    width: 800px;
+    border-radius: 5%;
+}
+.update-pro form img{
+height: 200px;
+width: 200p;
+border-radius:90%;
+object-fit: cover;
+}
+
+.update-pro form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 15px;
+
+    
+}
+.update-pro form .flex .inputBox{
+    width: auto;
+
+}
+.update-pro form .flex .inputBox .span{
+    text-align: left;
+    display: block;
+    margin-top: 15px;
+    font-size: 17px;
+    color: var(--black);
+} 
+.update-pro form .flex .inputBox .box{
+    width: 100%;
+    border-radius: 0.5%;
+    background-image: linear-gradient(#ddd6f3,#faaca8);
+    padding: 12px 14px;
+    font-size: 17px;
+    color:var(--black);
+    margin-top: 10px;
+}
+@media (max-width:650px){ /*used in media queries to apply different styles for different media types/devices */
+.update-pro form .flex{
+        flex-wrap: wrap;
+        gap:0;
+
+    }
+    .update-pro form .flex .inputBox{
+        width: 100;
+}
+    
+}
+
+
+
+
+
+
+
